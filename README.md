@@ -1,8 +1,8 @@
 
 # Introduction #
-This program provides a simple example of how to run a real-time loop using RTAI's LXRT system.
+This program provides a simple example of how to run a real-time loop using [RTAI's LXRT module](https://www.rtai.org/userfiles/documentation/magma/html/api/whatis_lxrt.html).
 
-It was tested on a system with Linux kernel 2.6.32.20 and RTAI 3.9.
+It was tested on a computer with Linux kernel 2.6.32.20 and RTAI 3.9.
 
 # Compilation #
 
@@ -20,6 +20,7 @@ Load the RTAI kernel modules:
     $ ./scripts/insmods
 
 Ensure the RTAI kernel modules are loaded:
+
     $ lsmod | grep rtai
     rtai_shm               11475  0 
     rtai_sem               25686  0 
@@ -28,8 +29,8 @@ Ensure the RTAI kernel modules are loaded:
 
 Run the program:
 
-   $ cd build
-   $ sudo ./TestRTAI [loop period in seconds]
+    $ cd build
+    $ sudo ./TestRTAI [loop period in seconds]
 
 Typically, you will want a loop period of 0.001, which is 1 millisecond.
 
