@@ -32,9 +32,24 @@ Run the program:
     $ cd build
     $ sudo ./TestRTAI [loop period in seconds]
 
-Typically, you will want a loop period of 0.001, which is 1 millisecond.
+Typically, you will want a loop period of 0.001 (1 ms).
 
-You should see the actual loop period being printed to the screen.
+You should see the actual loop period being printed to the screen. Here is an example:
+
+    TestRTAI::rtmethod: Period = 0.999825ms
+    TestRTAI::rtmethod: Period = 0.999971ms
+    TestRTAI::rtmethod: Period = 1.00002ms
+    TestRTAI::rtmethod: Period = 1.00002ms
+    TestRTAI::rtmethod: Period = 0.999975ms
+    TestRTAI::rtmethod: Period = 1.00001ms
+    TestRTAI::rtmethod: Period = 0.999979ms
+    TestRTAI::rtmethod: Period = 1.00018ms
+    TestRTAI::rtmethod: Period = 0.99983ms
+    TestRTAI::rtmethod: Period = 1.00001ms
+    TestRTAI::rtmethod: Period = 0.999975ms
+    TestRTAI::rtmethod: Period = 1.00002ms
+    TestRTAI::rtmethod: Period = 0.999989ms
+    TestRTAI::rtmethod: Period = 1ms
 
 Type any key to stop the program.
 
