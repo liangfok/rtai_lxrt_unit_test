@@ -1,13 +1,6 @@
 #ifndef __TestRTAI_HPP__
 #define __TestRTAI_HPP__
 
-// #include <rtai_sched.h>
-// #include <rtai_shm.h>
-// #include <rtai.h>
-// #include <rtai_sem.h>
-// #include <rtai_nam2num.h>
-// #include <rtai_registry.h>
-
 #include <rtai.h>
 #include <rtai_lxrt.h>
 
